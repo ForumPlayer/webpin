@@ -49,7 +49,7 @@ namespace Webpin.Widgets.Views {
         GLib.Regex protocol_regex;
         Gee.HashMap<string, GLib.AppInfo> apps;
 
-        private string default_app_icon = "com.github.artemanufrij.webpin";
+        private string default_app_icon = "me.fplr.webpin";
 
         private bool app_name_valid = false;
         private bool app_url_valid = false;
@@ -225,7 +225,7 @@ namespace Webpin.Widgets.Views {
                             }
 
                             var url = app_url_entry.text;
-                            var session = new Soup.Session.with_options ("user_agent", "WebPin/0.1.0 (https://github.com/artemanufrij/webpin)");
+                            var session = new Soup.Session.with_options ("user_agent", "WebPin/0.1.0 (https://github.com/forumplayer/webpin)");
                             session.timeout = 2;
                             var msg = new Soup.Message ("GET", url);
                             session.send_message (msg);
@@ -351,7 +351,7 @@ namespace Webpin.Widgets.Views {
         }
 
         public bool download_icon (string url) {
-            var session = new Soup.Session.with_options ("user_agent", "WebPin/0.1.0 (https://github.com/artemanufrij/webpin)");
+            var session = new Soup.Session.with_options ("user_agent", "WebPin/0.1.0 (https://github.com/forumplayer/webpin)");
             session.timeout = 2;
             var msg = new Soup.Message ("GET", url);
             session.send_message (msg);

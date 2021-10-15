@@ -1,11 +1,11 @@
 # Polish translations for Webpin.
-# This file is distributed under the same license as the com.github.artemanufrij.webpin.
+# This file is distributed under the same license as the me.fplr.webpin.
 # Translated by Michał Nowakowski <nowakowski@offshore.rocks>, 2019. 
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.artemanufrij.webpin\n"
+"Project-Id-Version: me.fplr.webpin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-18 14:33+0200\n"
 "PO-Revision-Date: 2019-12-15 17:08+0100\n"

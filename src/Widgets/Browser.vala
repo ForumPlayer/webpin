@@ -60,6 +60,7 @@ namespace Webpin.Widgets {
 
             web_view = new WebKit.WebView.with_context (WebKit.WebContext.get_default ()) {
                 settings = new WebKit.Settings () {
+                    user_agent = "Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36",
                     enable_back_forward_navigation_gestures = true,
                     enable_mediasource = true,
                     enable_webgl = true
@@ -103,7 +104,7 @@ namespace Webpin.Widgets {
                     icon_for_notification = GLib.Icon.new_for_string (desktop_file.icon);
                 } catch (Error err) {
                     warning (err.message);
-                    icon = new Gtk.Image.from_icon_name ("com.github.artemanufrij.webpin", Gtk.IconSize.DIALOG);
+                    icon = new Gtk.Image.from_icon_name ("me.fplr.webpin", Gtk.IconSize.DIALOG);
                 }
             } else {
                 icon = new Gtk.Image.from_icon_name (desktop_file.icon, Gtk.IconSize.DIALOG);

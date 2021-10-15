@@ -3,8 +3,8 @@ Name=Webpin
 GenericName=Webpin
 Comment=Pin your websites on your desktop
 Keywords=internet;webapp;
-Exec=com.github.artemanufrij.webpin %u
-Icon=com.github.artemanufrij.webpin
+Exec=me.fplr.webpin %u
+Icon=me.fplr.webpin
 Terminal=false
 Type=Application
 Categories=Network;GNOME;GTK;
@@ -13,5 +13,5 @@ Actions=New;
 
 [Desktop Action New]
 Name=New Webapp
-Exec=com.github.artemanufrij.webpin --new
+Exec=me.fplr.webpin --new
 Icon=document-new-symbolic

@@ -1,4 +1,4 @@
-Source: com.github.artemanufrij.webpin
+Source: me.fplr.webpin
 Section: x11
 Priority: optional
 Maintainer: Artem Anufrij <artem.anufrij@live.de>
@@ -9,7 +9,7 @@ Build-Depends: meson,
                valac (>= 0.26)
 Standards-Version: 3.9.3
 
-Package: com.github.artemanufrij.webpin
+Package: me.fplr.webpin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Simple webpin app

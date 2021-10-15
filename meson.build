@@ -1,4 +1,4 @@
-project('com.github.artemanufrij.webpin','vala', 'c')
+project('me.fplr.webpin','vala', 'c')
 
 i18n = import('i18n')
 add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format (meson.project_name()), language:'c')

@@ -1,11 +1,11 @@
-# Lithuanian translations for com.github.artemanufrij.webpin package.
-# Copyright (C) 2019 THE com.github.artemanufrij.webpin'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the com.github.artemanufrij.webpin package.
+# Lithuanian translations for me.fplr.webpin package.
+# Copyright (C) 2019 THE me.fplr.webpin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the me.fplr.webpin package.
 # Moo, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.artemanufrij.webpin\n"
+"Project-Id-Version: me.fplr.webpin\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-18 14:33+0200\n"
 "PO-Revision-Date: 2019-01-28 14:24+0200\n"

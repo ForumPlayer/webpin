@@ -34,13 +34,13 @@ namespace Webpin {
                             Name=Webpin
                             GenericName=Web app
                             Comment=Webpin web app
-                            Exec=com.github.artemanufrij.webpin
+                            Exec=me.fplr.webpin
                             Keywords=webpin;webapp;internet;
                             Icon=application-default-icon
                             Terminal=false
                             Type=Application
                             Categories=Network;
-                            X-GNOME-Gettext-Domain=com.github.artemanufrij.webpin
+                            X-GNOME-Gettext-Domain=me.fplr.webpin
                             X-GNOME-UsesNotifications=true
                             StartupWMClass=Webpin
                             X-Webpin-PrimaryColor=rgba (222,222,222,1)
@@ -49,7 +49,7 @@ namespace Webpin {
 
                             [Desktop Action Remove]
                             Name=Remove Webapp
-                            Exec=com.github.artemanufrij.webpin --remove
+                            Exec=me.fplr.webpin --remove
                             Icon=edit-delete-symbolic
                             """;
 
@@ -132,12 +132,12 @@ namespace Webpin {
             file.set_string ("Desktop Entry", "Name", name);
             file.set_string ("Desktop Entry", "GenericName", name);
             file.set_string ("Desktop Entry", "X-GNOME-FullName", name);
-            file.set_string ("Desktop Entry", "Exec", "com.github.artemanufrij.webpin " + url);
+            file.set_string ("Desktop Entry", "Exec", "me.fplr.webpin " + url);
             file.set_string ("Desktop Entry", "Icon", icon);
             file.set_string ("Desktop Entry", "StartupWMClass", url);
             file.set_string ("Desktop Entry", "X-Webpin-StayOpen", stay_open.to_string ());
             file.set_string ("Desktop Entry", "X-Webpin-View-Mode", minimal_ui ? "minimal" : "default");
-            file.set_string ("Desktop Action Remove", "Exec", "com.github.artemanufrij.webpin --remove " + url);
+            file.set_string ("Desktop Action Remove", "Exec", "me.fplr.webpin --remove " + url);
         }
 
         public DesktopFile.from_desktopappinfo (GLib.DesktopAppInfo info) {

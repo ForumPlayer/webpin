@@ -42,7 +42,7 @@ namespace Webpin {
         public bool use_dark_theme { get; set; }
 
         private Settings () {
-            base ("com.github.artemanufrij.webpin");
+            base ("me.fplr.webpin");
         }
 
         public enum WindowState {

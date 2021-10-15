@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2017 Artem Anufrij <artem.anufrij@live.de> -->
 <component type="desktop">
-    <id>com.github.artemanufrij.webpin</id>
+    <id>me.fplr.webpin</id>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>GPL-3.0+</project_license>
     <name>Webpin</name>
@@ -21,15 +21,15 @@
     </custom>
     <developer_name>Artem Anufrij</developer_name>
     <url type="homepage">https://artemanufrij.github.io</url>
-    <url type="bugtracker">https://github.com/artemanufrij/webpin/issues</url>
-    <url type="help">https://github.com/artemanufrij/webpin/issues</url>
+    <url type="bugtracker">https://github.com/forumplayer/webpin/issues</url>
+    <url type="help">https://github.com/forumplayer/webpin/issues</url>
     <update_contact>artem.anufrij@live.de</update_contact>
     <screenshots>
         <screenshot type="default">
-            <image>https://raw.githubusercontent.com/artemanufrij/webpin/master/screenshots/Screenshot.png</image>
+            <image>https://raw.githubusercontent.com/forumplayer/webpin/custom/screenshots/Screenshot.png</image>
         </screenshot>
         <screenshot>
-            <image>https://raw.githubusercontent.com/artemanufrij/webpin/master/screenshots/Screenshot_new_app.png</image>
+            <image>https://raw.githubusercontent.com/forumplayer/webpin/custom/screenshots/Screenshot_new_app.png</image>
         </screenshot>
     </screenshots>
     <releases>

@@ -55,7 +55,7 @@ namespace Webpin.Widgets.Views {
                 if (child is WebItem) {
                     var app_icon = child as WebItem;
                     try {
-                        Process.spawn_command_line_async ("com.github.artemanufrij.webpin " + app_icon.desktop_file.url.replace("%%", "%"));
+                        Process.spawn_command_line_async ("me.fplr.webpin " + app_icon.desktop_file.url.replace("%%", "%"));
                     } catch (SpawnError err) {
                         warning (err.message);
                     }
